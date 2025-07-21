@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ahmet Öğüt - Kimya Mühendisi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Ahmet Öğüt</h1>
+    <p>Kimya Mühendisi</p>
+    <a href="#contact" class="btn">İletişime Geç</a>
+  </header>
+
+  <section id="about">
+    <h2>Hakkımda</h2>
+    <p>Ben Ahmet Öğüt, Sönmez Polimer Kimya’da Kimya Mühendisi olarak çalışıyorum.</p>
+    <a href="#" class="btn">CV İndir</a>
+  </section>
+
+  <section id="projects">
+    <h2>Projeler</h2>
+    <div class="project-card">
+      <h3>Polimer Üretim Optimizasyonu</h3>
+      <p>Üretim verimliliğini %15 artırmak için yöntem geliştirme.</p>
+    </div>
+    <!-- Yeni projeler için kart ekleyebilirsin -->
+  </section>
+
+  <section id="contact">
+    <h2>İletişim</h2>
+    <form action="mailto:ahmet-ogut@mail365.shop" method="post" enctype="text/plain">
+      <input type="text" name="isim" placeholder="Adın" required>
+      <input type="email" name="email" placeholder="E-posta adresin" required>
+      <textarea name="mesaj" placeholder="Mesajın..." required></textarea>
+      <button type="submit">Gönder</button>
+    </form>
+    <p>E-posta: <a href="mailto:ahmet-ogut@mail365.shop">ahmet-ogut@mail365.shop</a></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
